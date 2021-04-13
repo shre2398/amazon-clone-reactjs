@@ -1,9 +1,15 @@
 import './App.css';
 
+import Header from './Components/Header/Header';
+import Home from './Components/Header/Home/Home';
+
 function App() {
   return (
     <div className='app'>
-      <h1>Amazon Clone!!! 🚀🔥</h1>
+      {/* Header */}
+      <Header />
+      {/* Home */}
+      <Home />
     </div>
   );
 }
