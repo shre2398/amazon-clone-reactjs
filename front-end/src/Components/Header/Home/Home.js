@@ -15,7 +15,7 @@ function Home() {
         <div className='home__row'>
           <Product
             id='23455135'
-            title='Zero to One'
+            title='Zero to One: Notes on Start Ups, or How to Build the Future'
             price={29.99}
             image='https://images-na.ssl-images-amazon.com/images/I/51z7mZZKRgL._SX317_BO1,204,203,200_.jpg'
             rating={3}
@@ -55,7 +55,7 @@ function Home() {
           <Product
             id='2456326'
             title='HP Pavilion Gaming 9th Gen Intel Core i5 Processor 15.6-inch Laptop (Core i5-9300H/8GB/512GB SSD/Windows 10 Home/4GB NVIDIA GeForce GTX 1650 Graphics/Shadow Black), 15-dk0268tx'
-            price={700.99}
+            price={1094.99}
             image='https://m.media-amazon.com/images/I/81pezrPSgOL._AC_UY218_.jpg'
             rating={5}
           />
