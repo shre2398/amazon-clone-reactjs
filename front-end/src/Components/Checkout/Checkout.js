@@ -8,8 +8,9 @@ import Subtotal from './Subtotal/Subtotal';
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
 
-  const checkoutProducts = basket.map((item) => (
+  const checkoutProducts = basket.map((item, index) => (
     <CheckoutProduct
+      key={index.toString()}
       id={item.id}
       image={item.image}
       title={item.title}

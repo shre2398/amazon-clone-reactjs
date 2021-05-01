@@ -11,6 +11,7 @@ import Login from './Components/Login/Login';
 import Payment from './Components/Payment/Payment';
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
+import Orders from './Components/Orders/Orders';
 
 const promise = loadStripe(
   'pk_test_51IjizaSIO4J0W0rFIQErAzDBLoZLco1qzsSzfFNntaXFXdnzLXR4lLzNo3qrrrRIupeH8aMy627BCivYW2IHTnvv00K877qrdL'
@@ -43,6 +44,10 @@ function App() {
     <Router>
       <div className='app'>
         <Switch>
+          <Route path='/orders'>
+            <Header />
+            <Orders />
+          </Route>
           <Route path='/login'>
             <Login />
           </Route>
