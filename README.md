@@ -1,3 +1,5 @@
 # Amazon Clone Built in React
 
-Demo Link : [Amazon Clone](#https://react-amaze-on-clone.web.app/)
+## Amazon clone developed using ReactJS and backend in NodeJS.
+
+Demo Link : [Amazon Clone](https://react-amaze-on-clone.web.app/)
